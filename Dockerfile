@@ -1,4 +1,4 @@
-FROM alpine:3.23.0
+FROM alpine:3.23.3
 RUN apk add --no-cache novnc websockify
 RUN cp /usr/share/novnc/vnc.html /usr/share/novnc/index.html
 USER nobody
